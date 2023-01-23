@@ -11,3 +11,15 @@ textarea {
     height: 10vh;
     padding: 1rem;
 }
+
+.output-box-head {
+    font-size: larger;
+}
+
+#output-box {
+    border: 1px solid #000000;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}

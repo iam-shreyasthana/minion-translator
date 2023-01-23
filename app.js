@@ -3,13 +3,13 @@
 let buttonTranslate = document.querySelector("#btn-translate");
 
 //Text-Area....
-let textInput = document.querySelector("#text-input")
+let textInput = document.querySelector("#text-input");
 
-const clickEventHandler = () =>{
-    console.log("Clicked");
-    console.log("input", textInput.value);
-}
+//Output Box....
+let outputDiv = document.querySelector("#output-box");
 
-buttonTranslate.addEventListener('click', clickEventHandler);
+buttonTranslate.addEventListener('click', () => {
+    outputDiv.innerText = "jdskabkda " + textInput.value;
+});
 
-
+ 
