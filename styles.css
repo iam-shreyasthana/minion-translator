@@ -23,10 +23,22 @@ nav {
     text-align: center;
 }
 
+.nav-heading {
+    font-size: 3rem; 
+    padding: 1rem;
+}
+
 main {
     max-width: var(--width-break);
     margin: auto;
     padding: 1rem;
+}
+
+.minion {
+    width: 10vw;
+    display: block;
+    position: absolute;
+    margin-left: 10vw;
 }
 
 textarea {
@@ -37,11 +49,13 @@ textarea {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
-    writing-mode: horizontal-tb !important;
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
 .output-box-head {
     font-size: larger;
+    text-align: center;
 }
 
 #output-box {
@@ -51,6 +65,8 @@ textarea {
     max-height: 20vh;
     overflow: scroll;
     border: 1px solid var(--black);
+    text-align: center;
+    padding: 2rem 1rem;
 }
 
 #btn-translate {
@@ -63,7 +79,39 @@ textarea {
     border-color: initial;
     border-image: initial;
     margin: 1rem 0rem;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     align-items: flex-start;
 }
 
+.btn-primarydiv {
+    max-width: fit-content;
+    margin: auto;
+}
+
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+.about {
+    font-size: x-large;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
