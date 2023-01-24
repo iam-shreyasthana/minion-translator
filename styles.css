@@ -81,6 +81,14 @@ textarea {
     margin: 1rem 0rem;
     padding: 1rem 4rem;
     align-items: flex-start;
+    transition: background-color 200ms ease-in-out;
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    #btn-translate:hover {
+      background-color: hotpink;
+    }
 }
 
 .btn-primarydiv {
