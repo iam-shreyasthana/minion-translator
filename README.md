@@ -7,10 +7,10 @@
     <li>
         It is based on translating English into Minion Language.
     </li>
+<h2>
+    Steps :-
+</h2>
     <ol>
-        <li>
-            Steps :-
-        </li>
         <li>
             We write our text in English language in the text area. 
         </li>
